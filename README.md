@@ -22,4 +22,7 @@ Here I will share the errors and solutions I received in ROS
     - *for ros kinetic* 
     > git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
     > 
-    > cd ~/catkin_ws && catkin_make 
+    > cd ~/catkin_ws && catkin_make
+     
+4.  RLException: Invalid <arg> tag: environment variable 'TURTLEBOT3_MODEL' is not set. 
+    > export TURTLEBOT3_MODEL=waffle_pi      *or burger or waffle* 
