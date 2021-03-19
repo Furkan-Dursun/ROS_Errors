@@ -25,4 +25,12 @@ Here I will share the errors and solutions I received in ROS
     > cd ~/catkin_ws && catkin_make
      
 4.  RLException: Invalid <arg> tag: environment variable 'TURTLEBOT3_MODEL' is not set. 
-    > export TURTLEBOT3_MODEL=waffle_pi      *or burger or waffle* 
+    > export TURTLEBOT3_MODEL=waffle_pi
+    *or burger or waffle*
+     
+5. cannot launch node of type [amcl/amcl]: amcl 
+     - *for ros melodic*
+     > Sudo apt-get install ros-melodic-navigation  
+     
+6. Makefile:140: recipe for target 'all' failed 
+     - Check cmakelists.txt   
