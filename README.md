@@ -7,3 +7,8 @@ Here I will share the errors and solutions I received in ROS
      - add this to the end of the file 
      > source  ~/catkin_ws/devel/setup.bash 
      - then restart roslaunch or pc
+
+2. [gazebo-2] process has died [pid ****, exit code ***
+    - Try to fully shutdown gazebo 
+    > killgazebo
+    > alias killg='killall gzclient && killall gzserver && killall rosmaster'  
