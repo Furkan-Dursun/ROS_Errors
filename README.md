@@ -18,8 +18,8 @@ Here I will share the errors and solutions I received in ROS
     - You should add msgs package to the src directory 
     > cd ~/catkin_ws/src 
     > 
-    > git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git -b melodic-devel  | for ros melodic
+    > git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git -b melodic-devel       | *for ros melodic*
     > 
-    > git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git                   | for ros kinetic
+    > git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git                        | *for ros kinetic*
     > 
     > cd ~/catkin_ws && catkin_make 
