@@ -26,7 +26,7 @@ Here I will share the errors and solutions I received in ROS
      
 4.  RLException: Invalid <arg> tag: environment variable 'TURTLEBOT3_MODEL' is not set. 
     > export TURTLEBOT3_MODEL=waffle_pi
-    *or burger or waffle*
+    - *or burger or waffle*
      
 5. cannot launch node of type [amcl/amcl]: amcl 
      - *for ros melodic*
