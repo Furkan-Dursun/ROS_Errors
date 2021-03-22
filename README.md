@@ -33,4 +33,8 @@ Here I will share the errors and solutions I received in ROS
      > Sudo apt-get install ros-melodic-navigation  
      
 6. Makefile:140: recipe for target 'all' failed 
-     - Check cmakelists.txt   
+     - Check cmakelists.txt
+7. gazebo - no alternative certificate subject name matches target host name 'api.ignitionfuel.org'
+     - Open > ~/.ignition/fuel/config.yaml
+     - replace > api.ignitionfuel.org
+     - with > fuel.ignitionrobotics.org  
