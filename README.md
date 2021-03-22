@@ -40,4 +40,6 @@ Here I will share the errors and solutions I received in ROS
      - replace
      > api.ignitionfuel.org
      - with
-     > fuel.ignitionrobotics.org  
+     > fuel.ignitionrobotics.org 
+     - or try this
+     > api.ignitionrobotics.org
