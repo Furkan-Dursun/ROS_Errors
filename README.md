@@ -45,3 +45,6 @@ Here I will share the errors and solutions I received in ROS
      > api.ignitionrobotics.org
 8. ERROR: cannot launch node of type [mavros/mavros_node]: can’t locate node [mavros_node] in package [mavros]
      > Remove mavros and mavlink from your ros workspace
+     
+9. ERROR: catkin command not found
+     > sudo apt-get install python3-catkin-tools
