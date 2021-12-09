@@ -48,3 +48,6 @@ Here I will share the errors and solutions I received in ROS
      
 9. ERROR: catkin command not found
      > sudo apt-get install python3-catkin-tools
+     
+10. The build space at '/home/user/catkin_ws/build' was previously built by 'catkin_make'. Please remove the build space or pick a different build space.
+     > rm -rf build/ devel/
